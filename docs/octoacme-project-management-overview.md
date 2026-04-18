@@ -20,13 +20,17 @@ Applies to all cross-functional projects that deliver product features, services
 - QA/Testing: validate quality and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
 
+> For expanded role definitions (Design, Scrum Master/Delivery Lead, Tech Lead, Support/On-call, Security, Data/Analytics, etc.), see: `docs/octoacme-roles-and-personas.md`.
+
 ## Key Artifacts
 - Project Charter / One-pager
 - Roadmap and Release Plan
 - Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
-- Risk Register
+- Acceptance Criteria & Definition of Done (see `docs/octoacme-definition-of-done.md`)
+- Risk Register (see `docs/octoacme-risk-register-template.md`)
+- Decision Log (see `docs/octoacme-decision-log-template.md`)
 - Retrospective notes and action items
+- Incident & rollback checklist (see `docs/octoacme-incident-and-rollback-checklist.md`)
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.

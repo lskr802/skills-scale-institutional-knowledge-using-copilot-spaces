@@ -15,6 +15,7 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+  - Ensure the baseline DoD is met (see `docs/octoacme-definition-of-done.md`)
 
 ## Quality & Testing
 - Unit tests for new logic
@@ -30,11 +31,12 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Blocker Escalation
 - Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
+- Level 2: PM escalates to PdM and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] Risk register updated weekly (template: `docs/octoacme-risk-register-template.md`)
+- [ ] Key decisions recorded as they happen (template: `docs/octoacme-decision-log-template.md`)
