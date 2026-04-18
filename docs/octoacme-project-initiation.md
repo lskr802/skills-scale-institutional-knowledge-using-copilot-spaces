@@ -16,7 +16,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Project One-pager (Problem, Goal, Success Metrics)
 - Stakeholder list & communication plan
 - High-level timeline and key milestones
-- Initial risk list
+- Initial risk list (use `docs/octoacme-risk-register-template.md` once planning starts)
 - Resource needs (team roles, rough effort estimate)
 
 ## Project One-pager Template
@@ -27,12 +27,13 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Primary stakeholders:
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
-- Proposed team / roles:
+- Proposed team / roles: (reference `docs/octoacme-roles-and-personas.md`)
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
-- [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] Stakeholder alignment (email or meeting)
 - [ ] Decision: Approve to move into planning?
+- [ ] Confirm delivery roles (PM, PdM, TL, QA, Design as needed) using `docs/octoacme-roles-and-personas.md`
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
 

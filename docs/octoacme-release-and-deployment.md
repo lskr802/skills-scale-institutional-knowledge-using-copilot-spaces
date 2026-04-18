@@ -12,7 +12,7 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
 - Release notes drafted
-- Rollback / mitigation plan documented
+- Rollback / mitigation plan documented (use `docs/octoacme-incident-and-rollback-checklist.md`)
 - Smoke tests prepared
 
 ## Deployment Checklist
@@ -26,6 +26,7 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
   - Trigger incident response and notify on-call
+  - Use `docs/octoacme-incident-and-rollback-checklist.md` to assign roles and drive triage
   - Rollback to last known-good release if necessary
   - Triage root cause and capture action items
 

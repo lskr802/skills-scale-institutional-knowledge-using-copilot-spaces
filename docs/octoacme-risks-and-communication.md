@@ -4,7 +4,7 @@
 Explain how to identify, manage, and communicate risks and dependencies.
 
 ## Risk Register
-Maintain a simple table with:
+Maintain a simple table (template: `docs/octoacme-risk-register-template.md`) with:
 - ID
 - Description
 - Impact (High/Med/Low)
@@ -40,3 +40,7 @@ Incident Communication
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
 - For security incidents, follow the security incident runbook and notify Security on-call
+
+## Decision capture
+For significant trade-offs (scope changes, architectural direction, timeline changes), record decisions in a decision log:
+- Template: `docs/octoacme-decision-log-template.md`
